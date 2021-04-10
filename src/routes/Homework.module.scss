@@ -1,0 +1,35 @@
+@import "../theme.scss";
+
+.dashboard {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+          "filter filter filter filter filter"
+          "selector selector selector selector selector"
+          "chart chart chart chart chart";
+
+  @media (min-width: 656px) {
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+            "filter filter filter filter filter"
+            "chart chart chart selector selector";
+  }
+}
+
+.filter {
+  grid-area: filter;
+  border: 1px solid $color-border;
+}
+
+.chart {
+  grid-area: chart;
+  height: 300px;
+}
+
+.selector {
+  grid-area: selector;
+}
+
+.dateFilterWrapper {
+  width: 300px;
+}
