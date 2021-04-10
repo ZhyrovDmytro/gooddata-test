@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gooddata-test/static/css/main.9462acfb.chunk.css",
-    "main.js": "/gooddata-test/static/js/main.880f253b.chunk.js",
-    "main.js.map": "/gooddata-test/static/js/main.880f253b.chunk.js.map",
+    "main.js": "/gooddata-test/static/js/main.48c86470.chunk.js",
+    "main.js.map": "/gooddata-test/static/js/main.48c86470.chunk.js.map",
     "runtime-main.js": "/gooddata-test/static/js/runtime-main.d75cc04a.js",
     "runtime-main.js.map": "/gooddata-test/static/js/runtime-main.d75cc04a.js.map",
     "static/css/2.8ffce9e7.chunk.css": "/gooddata-test/static/css/2.8ffce9e7.chunk.css",
     "static/js/2.eb8c1199.chunk.js": "/gooddata-test/static/js/2.eb8c1199.chunk.js",
     "static/js/2.eb8c1199.chunk.js.map": "/gooddata-test/static/js/2.eb8c1199.chunk.js.map",
     "index.html": "/gooddata-test/index.html",
-    "precache-manifest.7129864214c71e4b4001738ef4eebb6d.js": "/gooddata-test/precache-manifest.7129864214c71e4b4001738ef4eebb6d.js",
+    "precache-manifest.42c80c6e37bbab3a4e0f948abfa8aa71.js": "/gooddata-test/precache-manifest.42c80c6e37bbab3a4e0f948abfa8aa71.js",
     "service-worker.js": "/gooddata-test/service-worker.js",
     "static/css/2.8ffce9e7.chunk.css.map": "/gooddata-test/static/css/2.8ffce9e7.chunk.css.map",
     "static/css/main.9462acfb.chunk.css.map": "/gooddata-test/static/css/main.9462acfb.chunk.css.map",
@@ -48,6 +48,6 @@
     "static/css/2.8ffce9e7.chunk.css",
     "static/js/2.eb8c1199.chunk.js",
     "static/css/main.9462acfb.chunk.css",
-    "static/js/main.880f253b.chunk.js"
+    "static/js/main.48c86470.chunk.js"
   ]
 }
