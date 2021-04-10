@@ -17,11 +17,11 @@ const Aside: React.FC = () => {
             {[LOGGING_IN, LOGGING_OUT, AUTHORIZING].includes(authStatus) ? (
                 <InlineLoading />
             ) : authStatus === AUTHORIZED ? (
-                <Link to="/logout" className={cx(styles.Link, "s-logout-link")}>
+                <Link to="/gooddata-test/logout" className={cx(styles.Link, "s-logout-link")}>
                     Logout
                 </Link>
             ) : (
-                <Link to="/login" className={cx(styles.Link, "s-login-link")}>
+                <Link to="'/gooddata-test/login" className={cx(styles.Link, "s-login-link")}>
                     Login
                 </Link>
             )}

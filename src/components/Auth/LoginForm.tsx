@@ -128,7 +128,7 @@ const formikConnector = withFormik<MyFormProps, FormValues>({
     }),
     handleSubmit: ({ email, password }, { props: { login, history }, setFieldError, setSubmitting }) => {
         return login(email, password).then(
-            () => history.push("/"),
+            () => history.push("/gooddata-test/"),
             error => {
                 setSubmitting(false);
                 if (error.response && error.response.status === 401) {

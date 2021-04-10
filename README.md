@@ -2,9 +2,11 @@
 
 Deployed to https://zhyrovdmytro.github.io/gooddata-test/
 
-- To run the application locally: `yarn install` & `yarn start` 
+- To run the application locally: `yarn install` & `yarn start` - //localhost:3000
 - To run tests: `yarn test` 
 - To format code `yarn format`
+
+### You has to be logged in to see data!
 
 ## GoodData.UI Accelerator Toolkit Application
 

@@ -14,6 +14,8 @@ import styles from "./Homework.module.scss";
 
 import Page from "../components/Page";
 import { DateDatasets, Product, Revenue } from "../ldm/full";
+import { useAuth } from "../contexts/Auth";
+import { AuthStatus } from "../contexts/Auth/state";
 
 const SELECT_OPTIONS = [
     {
@@ -91,6 +93,9 @@ const Homework: React.FC = () => {
         [setSelectedOption],
     );
 
+    const auth = useAuth();
+    const isLoggedIn = auth.authStatus === AuthStatus.UNAUTHORIZED;
+
     const dashboardTitle = state.selectedFilterOption?.name;
     return (
         <Page>
@@ -120,7 +125,7 @@ const Homework: React.FC = () => {
                         id="revenue-select"
                         labelText="Select Revenue filter"
                         options={SELECT_OPTIONS}
-                        disabled={status === "loading"}
+                        disabled={status === "loading" || isLoggedIn}
                         onChange={handleSelect}
                     />
                 </div>

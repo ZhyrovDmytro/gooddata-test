@@ -6,10 +6,15 @@ import styles from "./Header.module.scss";
 const Links: React.FC = () => {
     return (
         <>
-            <NavLink to={"/"} className={styles.Link} activeClassName={styles.LinkActive} exact>
+            <NavLink to={"/gooddata-test/"} className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Homework
             </NavLink>
-            <NavLink to={"/insight"} className={styles.Link} activeClassName={styles.LinkActive} exact>
+            <NavLink
+                to={"/gooddata-test/insight"}
+                className={styles.Link}
+                activeClassName={styles.LinkActive}
+                exact
+            >
                 Insight
             </NavLink>
         </>
