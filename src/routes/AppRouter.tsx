@@ -6,7 +6,6 @@ import Page from "../components/Page";
 
 import Login from "./Login";
 import Logout from "./Logout";
-import Welcome from "./Welcome";
 import Homework from "./Homework";
 import Insight from "./Insight";
 
@@ -28,7 +27,6 @@ const AppRouter: React.FC = () => {
                 {/* WorkspaceProvider depends on Router so it must be nested */}
                 <WorkspaceProvider>
                     <Route exact path="/" component={Homework} />
-                    <Route exact path="/welcome" component={Welcome} />
                     <Route exact path="/dashboard" component={() => <Page>Dashboard</Page>} />
                     <Route exact path="/insight" component={Insight} />
                     <Route exact path="/login" component={Login} />

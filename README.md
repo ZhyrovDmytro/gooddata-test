@@ -1,3 +1,11 @@
+## GoodData test
+
+Deployed to https://zhyrovdmytro.github.io/
+
+- To run the application locally: `yarn install` & `yarn start` 
+- To run tests: `yarn test` 
+- To format code `yarn format`
+
 ## GoodData.UI Accelerator Toolkit Application
 
 This project was bootstrapped with [GoodData.UI Accelerator Toolkit](https://sdk.gooddata.com/gooddata-ui/docs/ht_create_your_first_visualization_toolkit.html).
