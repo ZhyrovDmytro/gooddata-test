@@ -1,7 +1,7 @@
 {
     "name": "gd-homework",
     "version": "0.1.0",
-    "homepage": "https://zhyrovdmytro.github.io/",
+    "homepage": "https://zhyrovdmytro.github.io/gooddata-test/",
     "private": true,
     "dependencies": {
         "@gooddata/sdk-backend-bear": "^8.2.0",

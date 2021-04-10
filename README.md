@@ -1,6 +1,6 @@
 ## GoodData test
 
-Deployed to https://zhyrovdmytro.github.io/
+Deployed to https://zhyrovdmytro.github.io/gooddata-test/
 
 - To run the application locally: `yarn install` & `yarn start` 
 - To run tests: `yarn test` 
