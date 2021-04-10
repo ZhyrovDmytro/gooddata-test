@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gooddata-test/static/css/main.9462acfb.chunk.css",
-    "main.js": "/gooddata-test/static/js/main.fce301f0.chunk.js",
-    "main.js.map": "/gooddata-test/static/js/main.fce301f0.chunk.js.map",
+    "main.js": "/gooddata-test/static/js/main.880f253b.chunk.js",
+    "main.js.map": "/gooddata-test/static/js/main.880f253b.chunk.js.map",
     "runtime-main.js": "/gooddata-test/static/js/runtime-main.d75cc04a.js",
     "runtime-main.js.map": "/gooddata-test/static/js/runtime-main.d75cc04a.js.map",
     "static/css/2.8ffce9e7.chunk.css": "/gooddata-test/static/css/2.8ffce9e7.chunk.css",
-    "static/js/2.fde30afa.chunk.js": "/gooddata-test/static/js/2.fde30afa.chunk.js",
-    "static/js/2.fde30afa.chunk.js.map": "/gooddata-test/static/js/2.fde30afa.chunk.js.map",
+    "static/js/2.eb8c1199.chunk.js": "/gooddata-test/static/js/2.eb8c1199.chunk.js",
+    "static/js/2.eb8c1199.chunk.js.map": "/gooddata-test/static/js/2.eb8c1199.chunk.js.map",
     "index.html": "/gooddata-test/index.html",
-    "precache-manifest.b726619edfd05ff6fe7b7198735f01fc.js": "/gooddata-test/precache-manifest.b726619edfd05ff6fe7b7198735f01fc.js",
+    "precache-manifest.7129864214c71e4b4001738ef4eebb6d.js": "/gooddata-test/precache-manifest.7129864214c71e4b4001738ef4eebb6d.js",
     "service-worker.js": "/gooddata-test/service-worker.js",
     "static/css/2.8ffce9e7.chunk.css.map": "/gooddata-test/static/css/2.8ffce9e7.chunk.css.map",
     "static/css/main.9462acfb.chunk.css.map": "/gooddata-test/static/css/main.9462acfb.chunk.css.map",
-    "static/js/2.fde30afa.chunk.js.LICENSE.txt": "/gooddata-test/static/js/2.fde30afa.chunk.js.LICENSE.txt",
+    "static/js/2.eb8c1199.chunk.js.LICENSE.txt": "/gooddata-test/static/js/2.eb8c1199.chunk.js.LICENSE.txt",
     "static/media/main.css": "/gooddata-test/static/media/sources.a96c313a.svg",
     "static/media/bucket-title-attribute.svg": "/gooddata-test/static/media/bucket-title-attribute.716b61ee.svg",
     "static/media/bucket-title-color-icon.svg": "/gooddata-test/static/media/bucket-title-color-icon.c8137b1d.svg",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.d75cc04a.js",
     "static/css/2.8ffce9e7.chunk.css",
-    "static/js/2.fde30afa.chunk.js",
+    "static/js/2.eb8c1199.chunk.js",
     "static/css/main.9462acfb.chunk.css",
-    "static/js/main.fce301f0.chunk.js"
+    "static/js/main.880f253b.chunk.js"
   ]
 }
